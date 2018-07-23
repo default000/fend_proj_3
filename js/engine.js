@@ -94,6 +94,9 @@ var Engine = (function(global) {
             enemy.update(dt);
         });
         player.update();
+        gems.forEach(function(gem) {
+            gem.update(dt);
+        });
     }
 
     /* This function initially draws the "game level", it will then call
@@ -154,6 +157,10 @@ var Engine = (function(global) {
         });
 
         player.render();
+
+        gems.forEach(function(gem) {
+            gem.render();
+        });
     }
 
     /* This function does nothing but it could have been a good place to
@@ -173,7 +180,14 @@ var Engine = (function(global) {
         'images/water-block.png',
         'images/grass-block.png',
         'images/enemy-bug.png',
-        'images/char-boy.png'
+        'images/char-boy.png',
+        'images/char-cat-girl.png',
+        'images/char-horn-girl.png',
+        'images/char-pink-girl.png',
+        'images/char-princess-girl.png',
+        'images/Gem Blue.png',
+        'images/Gem Green.png',
+        'images/Gem Orange.png'
     ]);
     Resources.onReady(init);
 
