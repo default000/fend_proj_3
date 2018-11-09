@@ -6,14 +6,14 @@
 * [Instructions](#instructions)
 * [Dependencies](#dependencies)
 
+This third project to the FEND is an HTML/CSS/js collection to create a classic arcade game clone.
+
 ## Usage
 
 1. Clone this repository
 2. Open index.html in your web browser
 
 ## Instructions
-
-This third project to the FEND is an HTML/CSS/js collection to create a classic arcade game clone.
 
 Move your player accorss the screen using the arrow keys.
 Successfully cross the road by reaching the water without hitting any bugs.
