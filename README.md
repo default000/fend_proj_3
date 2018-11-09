@@ -2,8 +2,14 @@
 
 ## Table of Contents
 
+* [Usage](#usage)
 * [Instructions](#instructions)
 * [Dependencies](#dependencies)
+
+## Usage
+
+1. Clone this repository
+2. Open index.html in your web browser
 
 ## Instructions
 
