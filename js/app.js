@@ -184,10 +184,7 @@ gems.push(new Gem('blue'));
 gems.push(new Gem('green'));
 gems.push(new Gem('orange'));
 
-
 let score = document.createElement('p');
-let canvas = document.querySelector('canvas');
-
 
 // This listens for key presses and sends the keys to your
 // Player.handleInput() method. You don't need to modify this.
