@@ -90,6 +90,8 @@ class Gem {
             if (this.x <= player.x + 40 && this.x >= player.x - 70)
                 if (this.y <= player.y + 30 && this.y >= player.y - 30) {
                     player.touched = this.color;
+                    // move this gem off the board
+                    this.x = 500;
                     player.changeChar();
                 }
     }
